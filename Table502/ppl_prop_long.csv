@@ -1,0 +1,441 @@
+,gender,year,education,value,se
+220,female,2000,AA,66.6,0.92
+300,female,2000,Bachelor,66.7,0.67
+140,female,2000,High school,64.1,0.54
+60,female,2000,Less than 9th grade,53.5,1.84
+420,female,2000,doctor,71.5,3.13
+340,female,2000,master,64.9,1.11
+380,female,2000,professional,70.6,2.61
+180,female,2000,some_college,65.3,0.69
+100,female,2000,some_high,56.5,1.3
+260,female,2000,total_high_edu,66.5,0.55
+20,female,2000,total,64.6,0.3
+221,female,2001,AA,65.8,0.65
+301,female,2001,Bachelor,66.6,0.47
+141,female,2001,High school,63.5,0.39
+61,female,2001,Less than 9th grade,54,1.32
+421,female,2001,doctor,70.9,2.12
+341,female,2001,master,65.6,0.76
+381,female,2001,professional,70.3,1.83
+181,female,2001,some_college,65.1,0.49
+101,female,2001,some_high,55.3,0.94
+261,female,2001,total_high_edu,66.6,0.38
+21,female,2001,total,64.3,0.22
+222,female,2002,AA,65.6,0.65
+302,female,2002,Bachelor,65.9,0.47
+142,female,2002,High school,63.2,0.39
+62,female,2002,Less than 9th grade,52.6,1.36
+422,female,2002,doctor,73.8,2.07
+342,female,2002,master,66.1,0.74
+382,female,2002,professional,74.3,1.73
+182,female,2002,some_college,65,0.49
+102,female,2002,some_high,55.5,0.95
+262,female,2002,total_high_edu,66.5,0.38
+22,female,2002,total,64.1,0.22
+223,female,2003,AA,65.6,0.64
+303,female,2003,Bachelor,65.8,0.46
+143,female,2003,High school,64.4,0.39
+63,female,2003,Less than 9th grade,56.5,1.38
+423,female,2003,doctor,71.9,1.95
+343,female,2003,master,66.3,0.73
+383,female,2003,professional,72.3,1.75
+183,female,2003,some_college,64.2,0.49
+103,female,2003,some_high,53.8,0.96
+263,female,2003,total_high_edu,66.4,0.37
+23,female,2003,total,64.4,0.21
+224,female,2004,AA,64.6,0.63
+304,female,2004,Bachelor,66.3,0.45
+144,female,2004,High school,64.5,0.4
+64,female,2004,Less than 9th grade,56.3,1.35
+424,female,2004,doctor,71.2,1.97
+344,female,2004,master,66.3,0.72
+384,female,2004,professional,71.5,1.77
+184,female,2004,some_college,64.2,0.49
+104,female,2004,some_high,56.1,0.96
+264,female,2004,total_high_edu,66.7,0.37
+24,female,2004,total,64.5,0.21
+225,female,2005,AA,67.2,0.61
+305,female,2005,Bachelor,68,0.44
+145,female,2005,High school,65.1,0.4
+65,female,2005,Less than 9th grade,56.5,1.36
+425,female,2005,doctor,67.3,2.02
+345,female,2005,master,68.3,0.7
+385,female,2005,professional,71.2,1.64
+185,female,2005,some_college,63.5,0.49
+105,female,2005,some_high,54.5,0.97
+265,female,2005,total_high_edu,68.2,0.36
+25,female,2005,total,65.3,0.21
+226,female,2006,AA,67.3,0.61
+306,female,2006,Bachelor,68.4,0.43
+146,female,2006,High school,65.6,0.39
+66,female,2006,Less than 9th grade,58.5,1.35
+426,female,2006,doctor,74,1.86
+346,female,2006,master,67.5,0.69
+386,female,2006,professional,73.6,1.61
+186,female,2006,some_college,65.9,0.48
+106,female,2006,some_high,56,0.96
+266,female,2006,total_high_edu,68.6,0.35
+26,female,2006,total,66.2,0.21
+227,female,2007,AA,67.3,0.6
+307,female,2007,Bachelor,68.4,0.42
+147,female,2007,High school,65.7,0.39
+67,female,2007,Less than 9th grade,56.8,1.43
+427,female,2007,doctor,71.2,1.91
+347,female,2007,master,70.6,0.63
+387,female,2007,professional,74.1,1.6
+187,female,2007,some_college,66.7,0.48
+107,female,2007,some_high,55.3,1
+267,female,2007,total_high_edu,69.3,0.34
+27,female,2007,total,66.7,0.21
+228,female,2008,AA,65.5,0.6
+308,female,2008,Bachelor,67.8,0.43
+148,female,2008,High school,62.4,0.4
+68,female,2008,Less than 9th grade,51.6,1.38
+428,female,2008,doctor,70,1.8
+348,female,2008,master,66.9,0.65
+388,female,2008,professional,74,1.51
+188,female,2008,some_college,64.7,0.49
+108,female,2008,some_high,52.8,1.01
+268,female,2008,total_high_edu,67.9,0.34
+28,female,2008,total,64.4,0.21
+229,female,2009,AA,64.5,0.6
+309,female,2009,Bachelor,68.3,0.42
+149,female,2009,High school,62.4,0.41
+69,female,2009,Less than 9th grade,52,1.42
+429,female,2009,doctor,68.3,1.74
+349,female,2009,master,67.5,0.65
+389,female,2009,professional,66.4,1.72
+189,female,2009,some_college,63.9,0.5
+109,female,2009,some_high,54.5,1.04
+269,female,2009,total_high_edu,68,0.34
+29,female,2009,total,64.3,0.21
+230,female,2010,AA,64.3,0.6
+310,female,2010,Bachelor,67.7,0.42
+150,female,2010,High school,62.6,0.42
+70,female,2010,Less than 9th grade,51.7,1.46
+430,female,2010,doctor,76.3,1.51
+350,female,2010,master,68.5,0.62
+390,female,2010,professional,73.9,1.66
+190,female,2010,some_college,63.3,0.5
+110,female,2010,some_high,52.4,1.07
+270,female,2010,total_high_edu,68.5,0.34
+30,female,2010,total,64.4,0.21
+231,female,2011,AA,66.3,0.59
+311,female,2011,Bachelor,69.4,0.41
+151,female,2011,High school,63,0.42
+71,female,2011,Less than 9th grade,52.2,1.42
+431,female,2011,doctor,73.6,1.58
+351,female,2011,master,69,0.62
+391,female,2011,professional,72.8,1.65
+191,female,2011,some_college,62.9,0.5
+111,female,2011,some_high,49.1,1.04
+271,female,2011,total_high_edu,69.6,0.33
+31,female,2011,total,65,0.21
+232,female,2012,AA,64.7,0.58
+312,female,2012,Bachelor,70.6,0.4
+152,female,2012,High school,62.3,0.42
+72,female,2012,Less than 9th grade,50,1.48
+432,female,2012,doctor,73.9,1.52
+352,female,2012,master,68,0.6
+392,female,2012,professional,73.2,1.61
+192,female,2012,some_college,61.7,0.5
+112,female,2012,some_high,51.1,1.07
+272,female,2012,total_high_edu,70,0.32
+32,female,2012,total,64.8,0.21
+233,female,2013,AA,65.1,0.79
+313,female,2013,Bachelor,70.4,0.5
+153,female,2013,High school,63.8,0.46
+73,female,2013,Less than 9th grade,56,1.84
+433,female,2013,doctor,69.4,1.97
+353,female,2013,master,67.4,0.82
+393,female,2013,professional,73.9,1.86
+193,female,2013,some_college,63.4,0.62
+113,female,2013,some_high,52.3,1.07
+273,female,2013,total_high_edu,69.6,0.4
+33,female,2013,total,65.6,0.26
+234,female,2014,AA,66.5,0.63
+314,female,2014,Bachelor,70.3,0.44
+154,female,2014,High school,63.6,0.47
+74,female,2014,Less than 9th grade,53.5,1.57
+434,female,2014,doctor,68.1,1.62
+354,female,2014,master,69.2,0.64
+394,female,2014,professional,73.8,1.65
+194,female,2014,some_college,64.3,0.55
+114,female,2014,some_high,54.1,1.21
+274,female,2014,total_high_edu,70,0.34
+34,female,2014,total,66.1,0.23
+235,female,2015,AA,65.6,0.63
+315,female,2015,Bachelor,70.3,0.43
+155,female,2015,High school,64.1,0.47
+75,female,2015,Less than 9th grade,54.9,1.56
+435,female,2015,doctor,74.5,1.44
+355,female,2015,master,68.3,0.63
+395,female,2015,professional,75.9,1.62
+195,female,2015,some_college,65.4,0.54
+115,female,2015,some_high,51.5,1.2
+275,female,2015,total_high_edu,70.1,0.34
+35,female,2015,total,66.3,0.22
+236,female,2016,AA,67.7,0.62
+316,female,2016,Bachelor,70.6,0.42
+156,female,2016,High school,63.7,0.47
+76,female,2016,Less than 9th grade,55.4,1.66
+436,female,2016,doctor,71.3,1.48
+356,female,2016,master,71.1,0.6
+396,female,2016,professional,75.8,1.56
+196,female,2016,some_college,65.7,0.55
+116,female,2016,some_high,56,1.21
+276,female,2016,total_high_edu,71,0.33
+36,female,2016,total,67.2,0.22
+237,female,2017,AA,68,0.61
+317,female,2017,Bachelor,71.9,0.41
+157,female,2017,High school,64.5,0.47
+77,female,2017,Less than 9th grade,57.3,1.64
+437,female,2017,doctor,71.8,1.41
+357,female,2017,master,72.4,0.58
+397,female,2017,professional,75.6,1.6
+197,female,2017,some_college,65.5,0.56
+117,female,2017,some_high,55.1,1.22
+277,female,2017,total_high_edu,72.2,0.32
+37,female,2017,total,68,0.22
+238,female,2018,AA,67.8,0.88
+318,female,2018,Bachelor,71.9,0.57
+158,female,2018,High school,65.8,0.67
+78,female,2018,Less than 9th grade,56.3,2.41
+438,female,2018,doctor,73.9,1.92
+358,female,2018,master,73.4,0.79
+398,female,2018,professional,78.3,2.21
+198,female,2018,some_college,65.1,0.8
+118,female,2018,some_high,56.4,1.77
+278,female,2018,total_high_edu,72.7,0.44
+38,female,2018,total,68.5,0.31
+239,female,2019,AA,67.8,0.93
+319,female,2019,Bachelor,72.5,0.6
+159,female,2019,High school,66.3,0.72
+79,female,2019,Less than 9th grade,57.4,2.62
+439,female,2019,doctor,78,1.91
+359,female,2019,master,73.6,0.83
+399,female,2019,professional,74.9,2.44
+199,female,2019,some_college,66.3,0.86
+119,female,2019,some_high,58.5,1.93
+279,female,2019,total_high_edu,73.2,0.46
+39,female,2019,total,69.2,0.33
+200,male,2000,AA,86.6,0.71
+280,male,2000,Bachelor,85.6,0.47
+120,male,2000,High school,80.9,0.42
+40,male,2000,Less than 9th grade,69.2,1.33
+400,male,2000,doctor,82.5,1.65
+320,male,2000,master,82.8,0.87
+360,male,2000,professional,85.8,1.39
+160,male,2000,some_college,82.2,0.54
+80,male,2000,some_high,71.8,1.01
+240,male,2000,total_high_edu,84.8,0.39
+0,male,2000,total,81.7,0.23
+201,male,2001,AA,84.1,0.54
+281,male,2001,Bachelor,83.6,0.35
+121,male,2001,High school,79.4,0.31
+41,male,2001,Less than 9th grade,69.7,0.9
+401,male,2001,doctor,82.2,1.18
+321,male,2001,master,82.4,0.6
+361,male,2001,professional,84.6,1.01
+161,male,2001,some_college,80.2,0.4
+81,male,2001,some_high,70.9,0.71
+241,male,2001,total_high_edu,83.3,0.28
+1,male,2001,total,80.1,0.17
+202,male,2002,AA,81.4,0.58
+282,male,2002,Bachelor,84.4,0.34
+122,male,2002,High school,77.8,0.32
+42,male,2002,Less than 9th grade,70.1,0.91
+402,male,2002,doctor,82.8,1.16
+322,male,2002,master,82.2,0.6
+362,male,2002,professional,85.7,0.99
+162,male,2002,some_college,78.8,0.41
+82,male,2002,some_high,71.3,0.69
+242,male,2002,total_high_edu,83.9,0.27
+2,male,2002,total,79.4,0.17
+203,male,2003,AA,82.1,0.56
+283,male,2003,Bachelor,84,0.34
+123,male,2003,High school,78.7,0.31
+43,male,2003,Less than 9th grade,71.5,0.89
+403,male,2003,doctor,80.3,1.22
+323,male,2003,master,81.1,0.6
+363,male,2003,professional,84.4,1
+163,male,2003,some_college,78.8,0.41
+83,male,2003,some_high,70.1,0.73
+243,male,2003,total_high_edu,83.1,0.28
+3,male,2003,total,79.5,0.17
+204,male,2004,AA,83.6,0.53
+284,male,2004,Bachelor,83.1,0.35
+124,male,2004,High school,79.1,0.3
+44,male,2004,Less than 9th grade,74.7,0.84
+404,male,2004,doctor,81.7,1.16
+324,male,2004,master,83.1,0.58
+364,male,2004,professional,83.3,1.03
+164,male,2004,some_college,79.3,0.41
+84,male,2004,some_high,71.2,0.71
+244,male,2004,total_high_edu,83,0.28
+4,male,2004,total,80,0.17
+205,male,2005,AA,82.5,0.54
+285,male,2005,Bachelor,83,0.34
+125,male,2005,High school,79.5,0.3
+45,male,2005,Less than 9th grade,74,0.84
+405,male,2005,doctor,82.4,1.12
+325,male,2005,master,82.7,0.58
+365,male,2005,professional,83.7,1
+165,male,2005,some_college,80,0.4
+85,male,2005,some_high,73.8,0.69
+245,male,2005,total_high_edu,82.9,0.27
+5,male,2005,total,80.3,0.16
+206,male,2006,AA,85.3,0.5
+286,male,2006,Bachelor,85.2,0.32
+126,male,2006,High school,79.6,0.3
+46,male,2006,Less than 9th grade,73.6,0.85
+406,male,2006,doctor,83.4,1.09
+326,male,2006,master,83.5,0.55
+366,male,2006,professional,85.9,0.94
+166,male,2006,some_college,80.1,0.4
+86,male,2006,some_high,72.9,0.67
+246,male,2006,total_high_edu,84.7,0.26
+6,male,2006,total,81.1,0.16
+207,male,2007,AA,83.3,0.52
+287,male,2007,Bachelor,85.1,0.32
+127,male,2007,High school,79.4,0.3
+47,male,2007,Less than 9th grade,71.1,0.91
+407,male,2007,doctor,83.5,1.11
+327,male,2007,master,83.5,0.54
+367,male,2007,professional,83.1,1.03
+167,male,2007,some_college,79.5,0.4
+87,male,2007,some_high,70.8,0.72
+247,male,2007,total_high_edu,84.5,0.26
+7,male,2007,total,80.5,0.16
+208,male,2008,AA,79.4,0.56
+288,male,2008,Bachelor,83.2,0.33
+128,male,2008,High school,74.6,0.32
+48,male,2008,Less than 9th grade,66.3,0.95
+408,male,2008,doctor,83.1,1.12
+328,male,2008,master,80.9,0.57
+368,male,2008,professional,82.4,1.02
+168,male,2008,some_college,76.5,0.42
+88,male,2008,some_high,64.6,0.76
+248,male,2008,total_high_edu,82.6,0.27
+8,male,2008,total,77,0.17
+209,male,2009,AA,77.9,0.58
+289,male,2009,Bachelor,79.9,0.35
+129,male,2009,High school,70.1,0.34
+49,male,2009,Less than 9th grade,56.2,1.03
+409,male,2009,doctor,81.2,1.11
+329,male,2009,master,82,0.56
+369,male,2009,professional,85.1,0.99
+169,male,2009,some_college,73.4,0.45
+89,male,2009,some_high,61.8,0.79
+249,male,2009,total_high_edu,80.8,0.28
+9,male,2009,total,73.9,0.18
+210,male,2010,AA,78.2,0.56
+290,male,2010,Bachelor,81.8,0.34
+130,male,2010,High school,71.9,0.34
+50,male,2010,Less than 9th grade,58.8,1.04
+410,male,2010,doctor,82.2,1.08
+330,male,2010,master,80,0.58
+370,male,2010,professional,81.4,1.1
+170,male,2010,some_college,72.9,0.45
+90,male,2010,some_high,61.6,0.82
+250,male,2010,total_high_edu,81.4,0.27
+10,male,2010,total,74.8,0.18
+211,male,2011,AA,78,0.56
+291,male,2011,Bachelor,82.1,0.33
+131,male,2011,High school,74.2,0.33
+51,male,2011,Less than 9th grade,67.2,0.98
+411,male,2011,doctor,81,1.09
+331,male,2011,master,82.3,0.55
+371,male,2011,professional,81.6,1.07
+171,male,2011,some_college,75.2,0.44
+91,male,2011,some_high,64.2,0.81
+251,male,2011,total_high_edu,82,0.27
+11,male,2011,total,76.6,0.17
+212,male,2012,AA,78.8,0.54
+292,male,2012,Bachelor,82.5,0.33
+132,male,2012,High school,74.5,0.33
+52,male,2012,Less than 9th grade,65.4,1
+412,male,2012,doctor,81.4,1.02
+332,male,2012,master,80.8,0.55
+372,male,2012,professional,84.4,1.01
+172,male,2012,some_college,73.7,0.44
+92,male,2012,some_high,64.4,0.82
+252,male,2012,total_high_edu,82.1,0.26
+12,male,2012,total,76.5,0.17
+213,male,2013,AA,79.6,0.67
+293,male,2013,Bachelor,82.6,0.41
+133,male,2013,High school,76.5,0.41
+53,male,2013,Less than 9th grade,69.3,1.21
+413,male,2013,doctor,79.7,1.3
+333,male,2013,master,82.5,0.67
+373,male,2013,professional,83.2,1.34
+173,male,2013,some_college,76.2,0.55
+93,male,2013,some_high,68.9,0.99
+253,male,2013,total_high_edu,82.4,0.33
+13,male,2013,total,78.1,0.21
+214,male,2014,AA,79.9,0.58
+294,male,2014,Bachelor,83.7,0.35
+134,male,2014,High school,78.3,0.35
+54,male,2014,Less than 9th grade,72.2,1.03
+414,male,2014,doctor,81.2,1.15
+334,male,2014,master,82.7,0.57
+374,male,2014,professional,83.5,1.12
+174,male,2014,some_college,76.7,0.47
+94,male,2014,some_high,69.4,0.85
+254,male,2014,total_high_edu,83.3,0.28
+14,male,2014,total,79.2,0.18
+215,male,2015,AA,80.6,0.56
+295,male,2015,Bachelor,83.5,0.34
+135,male,2015,High school,77.7,0.35
+55,male,2015,Less than 9th grade,72.2,1.03
+415,male,2015,doctor,80,1.14
+335,male,2015,master,82.7,0.54
+375,male,2015,professional,82.1,1.19
+175,male,2015,some_college,77.2,0.46
+95,male,2015,some_high,71.1,0.85
+255,male,2015,total_high_edu,83,0.27
+15,male,2015,total,79.3,0.18
+216,male,2016,AA,81.1,0.55
+296,male,2016,Bachelor,83.8,0.34
+136,male,2016,High school,78.8,0.34
+56,male,2016,Less than 9th grade,72.3,1.08
+416,male,2016,doctor,83.5,1.03
+336,male,2016,master,82.8,0.54
+376,male,2016,professional,82.3,1.23
+176,male,2016,some_college,78.4,0.45
+96,male,2016,some_high,71.5,0.87
+256,male,2016,total_high_edu,83.4,0.27
+16,male,2016,total,80.1,0.18
+217,male,2017,AA,81.8,0.54
+297,male,2017,Bachelor,83.1,0.33
+137,male,2017,High school,79.5,0.34
+57,male,2017,Less than 9th grade,74.3,1.07
+417,male,2017,doctor,82,1.03
+337,male,2017,master,82.7,0.54
+377,male,2017,professional,83.7,1.19
+177,male,2017,some_college,79.1,0.45
+97,male,2017,some_high,72.2,0.85
+257,male,2017,total_high_edu,83,0.27
+17,male,2017,total,80.4,0.17
+218,male,2018,AA,82.8,0.75
+298,male,2018,Bachelor,84.3,0.46
+138,male,2018,High school,80.7,0.47
+58,male,2018,Less than 9th grade,75.2,1.5
+418,male,2018,doctor,79.7,1.55
+338,male,2018,master,81.7,0.78
+378,male,2018,professional,85.1,1.62
+178,male,2018,some_college,78.7,0.65
+98,male,2018,some_high,73.1,1.23
+258,male,2018,total_high_edu,83.4,0.37
+18,male,2018,total,81.1,0.25
+219,male,2019,AA,82.2,0.8
+299,male,2019,Bachelor,83.9,0.49
+139,male,2019,High school,78.8,0.52
+59,male,2019,Less than 9th grade,72.7,1.72
+419,male,2019,doctor,83.3,1.56
+339,male,2019,master,82.8,0.79
+379,male,2019,professional,84.6,1.72
+179,male,2019,some_college,78.9,0.71
+99,male,2019,some_high,73.2,1.37
+259,male,2019,total_high_edu,83.6,0.39
+19,male,2019,total,80.6,0.26

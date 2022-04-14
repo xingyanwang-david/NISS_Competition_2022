@@ -1,0 +1,485 @@
+,gender,year,education,value,se
+242,female,1990,AA,.,.
+330,female,1990,Bachelor,4704,106
+154,female,1990,High school,11810,163
+66,female,1990,Less than 9th grade,847,46
+462,female,1990,doctor,.,.
+374,female,1990,master,.,.
+418,female,1990,professional,.,.
+198,female,1990,some_college,6462,123
+110,female,1990,some_high,1861,67
+286,female,1990,total_high_edu,7655,133
+22,female,1990,total,28636,235
+243,female,1995,AA,3336,95
+331,female,1995,Bachelor,6434,131
+155,female,1995,High school,11064,169
+67,female,1995,Less than 9th grade,774,46
+463,female,1995,doctor,283,28
+375,female,1995,master,2268,79
+419,female,1995,professional,421,34
+199,female,1995,some_college,6329,130
+111,female,1995,some_high,1763,69
+287,female,1995,total_high_edu,9406,156
+23,female,1995,total,32673,268
+244,female,2000,AA,4118,98
+332,female,2000,Bachelor,7899,134
+156,female,2000,High school,11789,163
+68,female,2000,Less than 9th grade,930,47
+464,female,2000,doctor,353,29
+376,female,2000,master,2823,81
+420,female,2000,professional,509,35
+200,female,2000,some_college,7391,130
+112,female,2000,some_high,1950,68
+288,female,2000,total_high_edu,11584,161
+24,female,2000,total,37762,272
+245,female,2001,AA,4190,71
+333,female,2001,Bachelor,8257,98
+157,female,2001,High school,11690,116
+69,female,2001,Less than 9th grade,927,33
+465,female,2001,doctor,392,22
+377,female,2001,master,3089,61
+421,female,2001,professional,531,25
+201,female,2001,some_college,7283,92
+113,female,2001,some_high,1869,47
+289,female,2001,total_high_edu,12269,119
+25,female,2001,total,38228,197
+246,female,2002,AA,4285,71
+334,female,2002,Bachelor,8229,98
+158,female,2002,High school,11687,116
+70,female,2002,Less than 9th grade,858,32
+466,female,2002,doctor,402,22
+378,female,2002,master,3281,63
+422,female,2002,professional,572,26
+202,female,2002,some_college,7354,93
+114,female,2002,some_high,1841,47
+290,female,2002,total_high_edu,12484,120
+26,female,2002,total,38510,198
+247,female,2003,AA,4397,72
+335,female,2003,Bachelor,8330,99
+159,female,2003,High school,11587,115
+71,female,2003,Less than 9th grade,882,33
+467,female,2003,doctor,462,24
+379,female,2003,master,3376,63
+423,female,2003,professional,567,26
+203,female,2003,some_college,7341,93
+115,female,2003,some_high,1739,46
+291,female,2003,total_high_edu,12735,121
+27,female,2003,total,38681,198
+248,female,2004,AA,4505,73
+336,female,2004,Bachelor,8664,100
+160,female,2004,High school,11392,114
+72,female,2004,Less than 9th grade,917,33
+468,female,2004,doctor,452,23
+380,female,2004,master,3451,64
+424,female,2004,professional,564,26
+204,female,2004,some_college,7330,93
+116,female,2004,some_high,1797,46
+292,female,2004,total_high_edu,13131,122
+28,female,2004,total,39072,199
+249,female,2005,AA,4751,75
+337,female,2005,Bachelor,9074,103
+161,female,2005,High school,11419,115
+73,female,2005,Less than 9th grade,902,33
+469,female,2005,doctor,437,23
+381,female,2005,master,3591,65
+425,female,2005,professional,657,28
+205,female,2005,some_college,7452,93
+117,female,2005,some_high,1740,46
+293,female,2005,total_high_edu,13758,125
+29,female,2005,total,40021,201
+250,female,2006,AA,4760,75
+338,female,2006,Bachelor,9645,106
+162,female,2006,High school,11652,116
+74,female,2006,Less than 9th grade,934,34
+470,female,2006,doctor,497,25
+382,female,2006,master,3746,67
+426,female,2006,professional,662,28
+206,female,2006,some_college,7613,94
+118,female,2006,some_high,1802,46
+294,female,2006,total_high_edu,14549,128
+30,female,2006,total,41311,203
+251,female,2007,AA,4891,76
+339,female,2007,Bachelor,9931,107
+163,female,2007,High school,11447,115
+75,female,2007,Less than 9th grade,823,32
+471,female,2007,doctor,484,24
+383,female,2007,master,4389,72
+427,female,2007,professional,666,28
+207,female,2007,some_college,7916,96
+119,female,2007,some_high,1649,44
+295,female,2007,total_high_edu,15469,132
+31,female,2007,total,42196,205
+252,female,2008,AA,4955,77
+340,female,2008,Bachelor,9856,107
+164,female,2008,High school,10851,112
+76,female,2008,Less than 9th grade,814,31
+472,female,2008,doctor,550,26
+384,female,2008,master,4176,70
+428,female,2008,professional,753,30
+208,female,2008,some_college,7456,93
+120,female,2008,some_high,1568,43
+296,female,2008,total_high_edu,15335,132
+32,female,2008,total,40979,203
+253,female,2009,AA,4924,76
+341,female,2009,Bachelor,10066,108
+165,female,2009,High school,10467,110
+77,female,2009,Less than 9th grade,776,31
+473,female,2009,doctor,592,27
+385,female,2009,master,4261,71
+429,female,2009,professional,606,27
+209,female,2009,some_college,7164,92
+121,female,2009,some_high,1519,43
+297,female,2009,total_high_edu,15526,132
+33,female,2009,total,40376,201
+254,female,2010,AA,4999,77
+342,female,2010,Bachelor,9903,107
+166,female,2010,High school,10117,108
+78,female,2010,Less than 9th grade,732,30
+474,female,2010,doctor,725,30
+386,female,2010,master,4576,74
+430,female,2010,professional,622,27
+210,female,2010,some_college,7150,92
+122,female,2010,some_high,1371,41
+298,female,2010,total_high_edu,15826,134
+34,female,2010,total,40196,201
+255,female,2011,AA,5131,78
+343,female,2011,Bachelor,10537,110
+167,female,2011,High school,10040,108
+79,female,2011,Less than 9th grade,779,31
+475,female,2011,doctor,694,29
+387,female,2011,master,4700,75
+431,female,2011,professional,635,28
+211,female,2011,some_college,6989,91
+123,female,2011,some_high,1380,41
+299,female,2011,total_high_edu,16566,136
+35,female,2011,total,40885,202
+256,female,2012,AA,5246,79
+344,female,2012,Bachelor,10961,112
+168,female,2012,High school,9870,107
+80,female,2012,Less than 9th grade,690,29
+476,female,2012,doctor,745,30
+388,female,2012,master,4887,76
+432,female,2012,professional,670,28
+212,female,2012,some_college,6899,90
+124,female,2012,some_high,1351,40
+300,female,2012,total_high_edu,17263,139
+36,female,2012,total,41319,203
+257,female,2013,AA,5253,100
+345,female,2013,Bachelor,11124,143
+169,female,2013,High school,9990,136
+81,female,2013,Less than 9th grade,788,39
+477,female,2013,doctor,732,38
+389,female,2013,master,4963,97
+433,female,2013,professional,793,39
+213,female,2013,some_college,7070,115
+125,female,2013,some_high,1309,50
+301,female,2013,total_high_edu,17611,178
+37,female,2013,total,42021,259
+258,female,2014,AA,5426,88
+346,female,2014,Bachelor,11420,127
+170,female,2014,High school,9802,118
+82,female,2014,Less than 9th grade,796,34
+478,female,2014,doctor,830,35
+390,female,2014,master,5310,88
+434,female,2014,professional,776,34
+214,female,2014,some_college,7241,102
+126,female,2014,some_high,1356,45
+302,female,2014,total_high_edu,18336,158
+38,female,2014,total,42957,229
+259,female,2015,AA,5507,89
+347,female,2015,Bachelor,11751,129
+171,female,2015,High school,9739,118
+83,female,2015,Less than 9th grade,823,35
+479,female,2015,doctor,1012,39
+391,female,2015,master,5562,90
+435,female,2015,professional,784,34
+215,female,2015,some_college,7525,104
+127,female,2015,some_high,1308,44
+303,female,2015,total_high_edu,19109,162
+39,female,2015,total,44012,235
+260,female,2016,AA,5764,91
+348,female,2016,Bachelor,12143,131
+172,female,2016,High school,9832,118
+84,female,2016,Less than 9th grade,728,33
+480,female,2016,doctor,976,38
+392,female,2016,master,5997,93
+436,female,2016,professional,841,35
+216,female,2016,some_college,7305,102
+128,female,2016,some_high,1382,45
+304,female,2016,total_high_edu,19957,166
+40,female,2016,total,44968,237
+261,female,2017,AA,5838,92
+349,female,2017,Bachelor,12937,135
+173,female,2017,High school,9783,118
+85,female,2017,Less than 9th grade,766,34
+481,female,2017,doctor,1085,40
+393,female,2017,master,6308,95
+437,female,2017,professional,805,34
+217,female,2017,some_college,7004,100
+129,female,2017,some_high,1341,44
+305,female,2017,total_high_edu,21136,170
+41,female,2017,total,45868,239
+262,female,2018,AA,5802,131
+350,female,2018,Bachelor,13302,197
+174,female,2018,High school,10014,171
+86,female,2018,Less than 9th grade,718,47
+482,female,2018,doctor,1163,59
+394,female,2018,master,6856,142
+438,female,2018,professional,826,50
+218,female,2018,some_college,6965,144
+130,female,2018,some_high,1337,63
+306,female,2018,total_high_edu,22147,250
+42,female,2018,total,46945,349
+263,female,2019,AA,5961,143
+351,female,2019,Bachelor,14207,217
+175,female,2019,High school,9998,184
+87,female,2019,Less than 9th grade,710,50
+483,female,2019,doctor,1281,67
+395,female,2019,master,7160,156
+439,female,2019,professional,825,54
+219,female,2019,some_college,6965,154
+131,female,2019,some_high,1323,68
+307,female,2019,total_high_edu,23473,275
+43,female,2019,total,48431,378
+220,male,1990,AA,.,.
+308,male,1990,Bachelor,7569,133
+132,male,1990,High school,16394,188
+44,male,1990,Less than 9th grade,2250,74
+440,male,1990,doctor,.,.
+352,male,1990,master,.,.
+396,male,1990,professional,.,.
+176,male,1990,some_college,9113,145
+88,male,1990,some_high,3315,89
+264,male,1990,total_high_edu,13334,172
+0,male,1990,total,44406,269
+221,male,1995,AA,3926,103
+309,male,1995,Bachelor,9597,158
+133,male,1995,High school,15331,196
+45,male,1995,Less than 9th grade,1946,73
+441,male,1995,doctor,853,48
+353,male,1995,master,3395,96
+397,male,1995,professional,1208,58
+177,male,1995,some_college,8908,152
+89,male,1995,some_high,3335,95
+265,male,1995,total_high_edu,15054,194
+1,male,1995,total,48500,306
+222,male,2000,AA,4729,105
+310,male,2000,Bachelor,11395,160
+134,male,2000,High school,16834,192
+46,male,2000,Less than 9th grade,1968,68
+442,male,2000,doctor,1038,50
+354,male,2000,master,3680,93
+398,male,2000,professional,1274,55
+178,male,2000,some_college,9792,149
+90,male,2000,some_high,3354,88
+266,male,2000,total_high_edu,17387,195
+2,male,2000,total,54065,310
+223,male,2001,AA,4714,75
+311,male,2001,Bachelor,11479,115
+135,male,2001,High school,16314,135
+47,male,2001,Less than 9th grade,2207,51
+443,male,2001,doctor,1041,35
+355,male,2001,master,3961,69
+399,male,2001,professional,1298,40
+179,male,2001,some_college,9494,105
+91,male,2001,some_high,3503,65
+267,male,2001,total_high_edu,17780,141
+3,male,2001,total,54013,225
+224,male,2002,AA,4399,72
+312,male,2002,Bachelor,11829,117
+136,male,2002,High school,16005,134
+48,male,2002,Less than 9th grade,2154,51
+444,male,2002,doctor,1065,36
+356,male,2002,master,4065,69
+400,male,2002,professional,1308,40
+180,male,2002,some_college,9603,106
+92,male,2002,some_high,3680,66
+268,male,2002,total_high_edu,18267,143
+4,male,2002,total,54108,225
+225,male,2003,AA,4696,75
+313,male,2003,Bachelor,11846,117
+137,male,2003,High school,16285,135
+49,male,2003,Less than 9th grade,2209,51
+445,male,2003,doctor,1037,35
+357,male,2003,master,4124,70
+401,male,2003,professional,1348,40
+181,male,2003,some_college,9340,104
+93,male,2003,some_high,3369,63
+269,male,2003,total_high_edu,18354,143
+5,male,2003,total,54253,225
+226,male,2004,AA,4913,76
+314,male,2004,Bachelor,11701,116
+138,male,2004,High school,17067,138
+50,male,2004,Less than 9th grade,2427,54
+446,male,2004,doctor,1088,36
+358,male,2004,master,4243,71
+402,male,2004,professional,1305,40
+182,male,2004,some_college,9257,104
+94,male,2004,some_high,3468,64
+270,male,2004,total_high_edu,18338,143
+6,male,2004,total,55469,227
+227,male,2005,AA,5022,77
+315,male,2005,Bachelor,12032,117
+139,male,2005,High school,17266,139
+51,male,2005,Less than 9th grade,2425,54
+447,male,2005,doctor,1144,37
+359,male,2005,master,4275,71
+403,male,2005,professional,1369,41
+183,male,2005,some_college,9532,105
+95,male,2005,some_high,3652,66
+271,male,2005,total_high_edu,18820,145
+7,male,2005,total,56717,229
+228,male,2006,AA,5110,78
+316,male,2006,Bachelor,12764,121
+140,male,2006,High school,17369,139
+52,male,2006,Less than 9th grade,2361,53
+448,male,2006,doctor,1172,38
+360,male,2006,master,4542,73
+404,male,2006,professional,1425,41
+184,male,2006,some_college,9493,105
+96,male,2006,some_high,3872,68
+272,male,2006,total_high_edu,19903,148
+8,male,2006,total,58109,231
+229,male,2007,AA,5244,79
+317,male,2007,Bachelor,12962,122
+141,male,2007,High school,17224,139
+53,male,2007,Less than 9th grade,2142,51
+449,male,2007,doctor,1125,37
+361,male,2007,master,4800,75
+405,male,2007,professional,1332,40
+185,male,2007,some_college,9867,107
+97,male,2007,some_high,3451,64
+273,male,2007,total_high_edu,20218,150
+9,male,2007,total,58147,231
+230,male,2008,AA,5020,77
+318,male,2008,Bachelor,12609,120
+142,male,2008,High school,16195,135
+54,male,2008,Less than 9th grade,1982,49
+450,male,2008,doctor,1119,37
+362,male,2008,master,4709,75
+406,male,2008,professional,1388,41
+186,male,2008,some_college,9515,105
+98,male,2008,some_high,3118,61
+274,male,2008,total_high_edu,19825,148
+10,male,2008,total,55655,227
+231,male,2009,AA,4828,76
+319,male,2009,Bachelor,12290,119
+143,male,2009,High school,15258,131
+55,male,2009,Less than 9th grade,1561,43
+451,male,2009,doctor,1212,38
+363,male,2009,master,4575,74
+407,male,2009,professional,1319,40
+187,male,2009,some_college,8609,100
+99,male,2009,some_high,2795,58
+275,male,2009,total_high_edu,19395,147
+11,male,2009,total,52445,223
+232,male,2010,AA,5042,77
+320,male,2010,Bachelor,12836,121
+144,male,2010,High school,15104,131
+56,male,2010,Less than 9th grade,1600,44
+452,male,2010,doctor,1246,39
+364,male,2010,master,4670,74
+408,male,2010,professional,1237,39
+188,male,2010,some_college,8541,100
+100,male,2010,some_high,2615,56
+276,male,2010,total_high_edu,19990,149
+12,male,2010,total,52890,223
+233,male,2011,AA,5206,78
+321,male,2011,Bachelor,13013,122
+145,male,2011,High school,15335,132
+57,male,2011,Less than 9th grade,1848,47
+453,male,2011,doctor,1271,39
+365,male,2011,master,4839,76
+409,male,2011,professional,1300,40
+189,male,2011,some_college,8752,101
+101,male,2011,some_high,2715,57
+277,male,2011,total_high_edu,20423,150
+13,male,2011,total,54279,225
+234,male,2012,AA,5423,80
+322,male,2012,Bachelor,13315,123
+146,male,2012,High school,15295,131
+58,male,2012,Less than 9th grade,1793,46
+454,male,2012,doctor,1433,41
+366,male,2012,master,5003,77
+410,male,2012,professional,1301,40
+190,male,2012,some_college,8974,102
+102,male,2012,some_high,2671,56
+278,male,2012,total_high_edu,21052,152
+14,male,2012,total,55208,227
+235,male,2013,AA,5605,103
+323,male,2013,Bachelor,13378,156
+147,male,2013,High school,16034,170
+59,male,2013,Less than 9th grade,1944,61
+455,male,2013,doctor,1476,53
+367,male,2013,master,5146,99
+411,male,2013,professional,1249,49
+191,male,2013,some_college,8960,129
+103,male,2013,some_high,2910,75
+279,male,2013,total_high_edu,21249,193
+15,male,2013,total,56703,289
+236,male,2014,AA,5622,90
+324,male,2014,Bachelor,13969,139
+148,male,2014,High school,16429,150
+60,male,2014,Less than 9th grade,1994,54
+456,male,2014,doctor,1369,45
+368,male,2014,master,5401,88
+412,male,2014,professional,1359,45
+192,male,2014,some_college,9281,115
+104,male,2014,some_high,3012,66
+280,male,2014,total_high_edu,22098,172
+16,male,2014,total,58435,256
+237,male,2015,AA,5907,92
+325,male,2015,Bachelor,14469,142
+149,male,2015,High school,16286,151
+61,male,2015,Less than 9th grade,2008,54
+457,male,2015,doctor,1451,46
+369,male,2015,master,5883,92
+413,male,2015,professional,1256,43
+193,male,2015,some_college,9445,116
+105,male,2015,some_high,2984,66
+281,male,2015,total_high_edu,23059,177
+17,male,2015,total,59690,265
+238,male,2016,AA,6091,94
+326,male,2016,Bachelor,14723,144
+150,male,2016,High school,16855,153
+62,male,2016,Less than 9th grade,1844,52
+458,male,2016,doctor,1589,48
+370,male,2016,master,5975,93
+414,male,2016,professional,1169,41
+194,male,2016,some_college,9603,117
+106,male,2016,some_high,2828,64
+282,male,2016,total_high_edu,23456,178
+18,male,2016,total,60677,266
+239,male,2017,AA,6052,93
+327,male,2017,Bachelor,15445,147
+151,male,2017,High school,16997,154
+63,male,2017,Less than 9th grade,1820,52
+459,male,2017,doctor,1667,49
+371,male,2017,master,6065,94
+415,male,2017,professional,1188,42
+195,male,2017,some_college,9629,117
+107,male,2017,some_high,2931,65
+283,male,2017,total_high_edu,24365,181
+19,male,2017,total,61794,268
+240,male,2018,AA,6310,137
+328,male,2018,Bachelor,15961,214
+152,male,2018,High school,17306,223
+64,male,2018,Less than 9th grade,1878,75
+460,male,2018,doctor,1619,70
+372,male,2018,master,6080,134
+416,male,2018,professional,1248,61
+196,male,2018,some_college,9341,166
+108,male,2018,some_high,2859,93
+284,male,2018,total_high_edu,24908,264
+20,male,2018,total,62603,392
+241,male,2019,AA,6513,149
+329,male,2019,Bachelor,16461,233
+153,male,2019,High school,16902,236
+65,male,2019,Less than 9th grade,1706,77
+461,male,2019,doctor,1664,76
+373,male,2019,master,6537,149
+417,male,2019,professional,1293,67
+197,male,2019,some_college,9085,175
+109,male,2019,some_high,2655,96
+285,male,2019,total_high_edu,25954,288
+21,male,2019,total,62815,419
