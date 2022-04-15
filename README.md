@@ -4,8 +4,8 @@ Github Repository Page for Team Wang's Results for 2022 NISS Visualization Compe
 
 ## Pre-request of R packages
 ### Common
-### Tabel 
-### Tabel
+### Table 221
+### Table 502
 
 
 Team Members:
