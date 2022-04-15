@@ -1,6 +1,13 @@
 # NISS Visualization Competition 2022
 Github Repository Page for Team Wang's Results for 2022 NISS Visualization Competition
 
+
+## Pre-request of R packages
+### Common
+### Tabel 
+### Tabel
+
+
 Team Members:
 Shuang Gao
 Lida Wang
