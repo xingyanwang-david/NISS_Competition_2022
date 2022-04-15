@@ -4,13 +4,22 @@ Github Repository Page for Team Wang's Results for 2022 NISS Visualization Compe
 
 ## Pre-request of R packages
 ### Common
-
-### Table 221
-### Table 502
+The following R packages are used for running both apps: 
 library(shiny)
 library(shinyWidgets)
-library(highcharter)
 library(dplyr)
+library(highcharter)
+### Table 221
+library(leaflet)
+library(DT)
+library(RColorBrewer)
+library(ggplot2)
+library(rgdal)
+library(maptools)
+library(mapproj)
+library(rgeos)
+library(tigris)
+### Table 502
 library(shinyjs)
 ## How to access
 
