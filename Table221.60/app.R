@@ -1,4 +1,6 @@
-#Version Data: 4/14/2022
+# =================================================================================
+# Authors: Xingran Weng, Lida Wang, Xingyan Wang, Shuang Gao, and Jingyi Xu
+# Version Date: 4/16/2022
 # =================================================================================
 #load required packages
 library(shiny)
@@ -144,10 +146,10 @@ all_rows<-c("Alabama"	=	"Alabama"	,
 # set up UI
 ui <- navbarPage(
   div(
-  img(
-    src = "NAEP_Large.png"
-  )
- 
+    img(
+      src = "NAEP_Large.png"
+    )
+    
   ),
   tags$head(
     tags$style(HTML('.navbar-nav > li > a, .navbar-brand {
@@ -162,39 +164,49 @@ ui <- navbarPage(
   tabPanel("NAEP Score Interactive Map", 
            div(class="outer",
                tags$head(
-                  #Include our custom CSS
+                 #Include our custom CSS
                  includeCSS("style.css"),
                ),
                leafletOutput("mymap", width="100%", height="100%"),
                absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
                              draggable = TRUE, top = 75, left = "auto", right = 25, bottom = "auto",
-                             width = "33%", height = "auto", 
-                             hr(),
-                             h4("Data Years:"),
-                             shinyWidgets::sliderTextInput(inputId ="year", 
-                                                           label = "Please Use the Sliderbar to Check the NAEP Score Map from 1998 to 2019: ", 
-                                                           choices = c(1998,2002,2003,2004,2007,2009,2011,2013,2015,2017,2019),
-                                                           animate=TRUE,
-                                                           width= "100%",
-                                                           dragRange = TRUE
-                             ),
-                             hr(),
-                             h4("NAEP Score Yearly Trend:"),
-                             highchartOutput("quantile_line",height = "1000px"),
-                             h4("Dashboard Function Description:"),
-                             p(HTML(
-                          "<p style=padding-left:10px; text-align:left;> In this dashoboard, two panels prepared for users to assess NAEP Reading Scale Score throughout the years. 
+                             width = "35%", height = "auto", 
+                             tabsetPanel(type = "tabs",
+                                         tabPanel("Dashboard Control Panel",
+                                                  hr(),
+                                                  h4("Data Years:"),
+                                                  shinyWidgets::sliderTextInput(inputId ="year", 
+                                                                                label = "Please Use the Sliderbar to Check the NAEP Score Map from 1998 to 2019: ", 
+                                                                                choices = c(1998,2002,2003,2004,2007,2009,2011,2013,2015,2017,2019),
+                                                                                animate=TRUE,
+                                                                                width= "100%",
+                                                                                dragRange = TRUE
+                                                  ),
+                                                  hr(),
+                                                  h4("NAEP Score Yearly Trend:"),
+                                                  highchartOutput("quantile_line",height = "70vh"),
+                                                  hr(),
+                                                  div(style="align:center;",
+                                                      actionButton('refresh',"Click here to refresh the page")
+                                                  ),
+                                                  p(HTML("<p style=padding-left:10px; text-align:left;> Users could click the refresh button above to reload the map page with showing lineplot of all locations in the original dataset."))
+                                                  ),
+                                         tabPanel("Dashboard Function Description",
+                                                  hr(),
+                                                  h4("How to Use It:"),
+                                                  p(HTML(
+                                                    "<p style=padding-left:10px; text-align:left;> In this dashoboard, two panels prepared for users to assess NAEP Reading Scale Score throughout the years. 
                            <p style=padding-left:10px; text-align:left;> In the 'NAEP Score Interactive Map' panel, users will be able to assess the NAEP Reading Scale Score of all 50 states in the US via the interactive map. By default, the line plot exhibited in this panel will be showing all locations' NAEP scores throughout the years
                            in the original dataset. If users are interested in one specific state's NAEP Reading Scale Score trend, users can click the state on the map then the line plot will be updated to the user-selected state with the reference line of the National NAEP Score. 
                            Users could also click the 'playback' button in the slidebar to review the score changes over the years from the map directly.
                            <p style=padding-left:10px; text-align:left;> In the 'NAEP Score Comparision' panel, users first can decide whether they want to add the National NAEP Reading Scale Score as the reference. 
                            Then, users can perform the NAEP scores comparison in two major ways. One is to compare multiple (2 or more) states' NAEP Reading Scale Score throughout the years by using the 'Compare by States' tab. 
                            Alternatively, users could choose the 'Compare by Regions' to assess the NAEP Reading Scale Score trends of respective states in each region. 
-                           <p style=padding-left:10px; text-align:left;> There is a refresh button provided in this panel, users could click it to reload the map page with showing lineplot of all locations in the original dataset."),align="left"),
-                             hr(),
-                             h4("Data Description:"),
-                             p(HTML(
-                           "<p style=padding-left:10px; text-align:left;> Scale ranges from 0 to 500. State-level data for 1992 and 1994 are not available. 
+                           "),align="left"),
+                                                  hr(),
+                                                  h4("Data Source/Description:"),
+                                                  p(HTML(
+                                                    "<p style=padding-left:10px; text-align:left;> Scale ranges from 0 to 500. State-level data for 1992 and 1994 are not available. 
                            Table does not include private schools, Bureau of Indian Education schools, or (except in the final row) DoDEA schools. Includes public school students who were tested with accommodations; 
                            excludes only those students with disabilities (SD) and English language learners (ELL) who were unable to be tested even with accommodations. 
                            SD and ELL populations, accommodation rates, and exclusion rates vary from state to state. Missing NAEP Reading Scale Score were observed in the early years of the data and the color of 'grey' was assigned to the states when those scores were missing of certain years.
@@ -202,58 +214,56 @@ ui <- navbarPage(
                            <p style=padding-left:10px; text-align:left;> U.S. Department of Education, National Center for Education Statistics, 
                            National Assessment of Educational Progress (NAEP), 1998, 2002, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, and 2019 Reading Assessments, 
                            retrieved November 3, 2019, from the Main NAEP Data Explorer (<a href=https://nces.ed.gov/nationsreportcard/naepdata target=_blank> Data Source </a>). 
-                           <p style=padding-left:10px; text-align:left;> The source data table was prepared in November 2019."),align="left"),
-                             hr(),
-                             div(style="align:center;",
-                                 actionButton('refresh',"Click here to refresh the page")
-                             )
+                           <p style=padding-left:10px; text-align:left;> The source data table was prepared in November 2019."),align="left")
+                                                  )
+                           )
+                  )
                )
-           )
   ),
   tabPanel("NAEP Score Comparision",
            sidebarPanel(style = "overflow-y:scroll; max-height: 1000px; position:relative;",
-           radioButtons(
-             "option",
-             "Choose whether to plot the National NAEP yearly scores:",
-             c("Yes"="Yes","No"="No"),
-             selected = "Yes",
-             width="100%"
-           ),
-           hr(),
-           tabsetPanel(type = "tabs",
-                       tabPanel("Compare by States",
-                    prettyCheckboxGroup(
-                         inputId = "location",
-                         label = "Select two or more states to compare NAEP Reading Scale Scores:",
-                         choices = all_rows,
-                         selected = c("Pennsylvania", "New York"),
-                         icon = icon("check-square-o"), 
-                         status = "primary",
-                         outline = TRUE,
-                         animation = "jelly"
-                        )
-                       ),
-                       tabPanel("Compare by Regions",
-                     prettyCheckboxGroup(
-                           inputId = "region",
-                           label = "Select one or more Regions to compare NAEP Reading Scale Score:",
-                           choices =  c( "Northeast" = "Northeast",
-                                         "Northcentral" = "Northcentral",
-                                         "Midwest"="Midwest",
-                                         "South"="South",
-                                         "West"="West"),
-                           icon = icon("check-square-o"), 
-                           status = "primary",
-                           outline = TRUE,
-                           animation = "jelly"
-                         )
-                       )),
-           hr(),
-           width=3),
+                        radioButtons(
+                          "option",
+                          "Choose whether to plot the National NAEP yearly scores:",
+                          c("Yes"="Yes","No"="No"),
+                          selected = "Yes",
+                          width="100%"
+                        ),
+                        hr(),
+                        tabsetPanel(type = "tabs",
+                                    tabPanel("Compare by States",
+                                             prettyCheckboxGroup(
+                                               inputId = "location",
+                                               label = "Select two or more states to compare NAEP Reading Scale Scores:",
+                                               choices = all_rows,
+                                               selected = c("Pennsylvania", "New York"),
+                                               icon = icon("check-square-o"), 
+                                               status = "primary",
+                                               outline = TRUE,
+                                               animation = "jelly"
+                                             )
+                                    ),
+                                    tabPanel("Compare by Regions",
+                                             prettyCheckboxGroup(
+                                               inputId = "region",
+                                               label = "Select one or more Regions to compare NAEP Reading Scale Score:",
+                                               choices =  c( "Northeast" = "Northeast",
+                                                             "Northcentral" = "Northcentral",
+                                                             "Midwest"="Midwest",
+                                                             "South"="South",
+                                                             "West"="West"),
+                                               icon = icon("check-square-o"), 
+                                               status = "primary",
+                                               outline = TRUE,
+                                               animation = "jelly"
+                                             )
+                                    )),
+                        hr(),
+                        width=3),
            mainPanel(
-           h4("NAEP Compairson Line Chart:"),
-           highchartOutput("compare",height = "1000px"),
-           width=9)
+             h4("NAEP Compairson Line Chart:"),
+             highchartOutput("compare",height = "1000px"),
+             width=9)
   )
 )
 
