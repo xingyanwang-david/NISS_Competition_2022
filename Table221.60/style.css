@@ -46,5 +46,5 @@ input[type="number"] {
   
   /* If not using map tiles, show a white background */
   .leaflet-container {
-    background-color: #E5E7E9 !important;
+    background-color: #D4D5D6 !important;
   }
