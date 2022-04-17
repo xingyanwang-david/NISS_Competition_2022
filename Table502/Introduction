@@ -1,5 +1,0 @@
-library(shiny)
-library(shinyWidgets)
-library(highcharter)
-library(dplyr)
-library(shinyjs)
