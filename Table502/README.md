@@ -6,10 +6,10 @@
 
 
 ## How to Access:
-### Github
+### Github (depedency packages are needed))
 shiny::runGitHub('NISS_Competition_2022', 'xingyanwang-david', subdir = "Table502")
 
-### Dashboard
+### Dashboard (no depedency packages are needed)
 https://xingyanwang-david.shinyapps.io/Table502_20/
 
 
