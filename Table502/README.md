@@ -6,7 +6,7 @@
 
 
 ## How to Access:
-### Github (depedency packages are needed))
+### Github (depedency packages are needed)
 shiny::runGitHub('NISS_Competition_2022', 'xingyanwang-david', subdir = "Table502")
 
 ### Dashboard (no depedency packages are needed)
