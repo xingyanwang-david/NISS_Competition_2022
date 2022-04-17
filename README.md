@@ -24,7 +24,8 @@ library(shinyjs)
 ## How to access
 
 ## Team Members:
-* In Alphabetical Order
+* In Alphabetical Order:
+
 Shuang Gao
 
 Lida Wang
