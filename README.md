@@ -2,8 +2,9 @@
 Github Repository Page for Team Wang's Results for 2022 NISS Visualization Competition
 
 ## Pre-request of R packages
-### Common
 The following R packages are used for running both apps: 
+
+### Common
 
 shiny, shinyWidgets, dplyr, highcharter
 
