@@ -19,8 +19,10 @@ shinyjs
 
 We provided several ways to access our designed shiny-apps, include: 
 1.	Github: Apps can be loaded through access by commands: 
-a.	shiny::runGitHub('NISS_Competition_2022', 'xingyanwang-david', subdir = "Table502")
-b.	shiny::runGitHub('NISS_Competition_2022', 'xingyanwang-david', subdir = "Table221.60")
+
+    a.	shiny::runGitHub('NISS_Competition_2022', 'xingyanwang-david', subdir = "Table502")
+    
+    b.	shiny::runGitHub('NISS_Competition_2022', 'xingyanwang-david', subdir = "Table221.60")
 2.	Running Locally: Apps can be running locally by unzipping corresponding files and run app.R. 
 3.	Access through shinyapp.ios: We published our apps on shinyapp.ios. By clicking links, apps will be loaded on a webpage without downloading any packages dependencies. 
 
